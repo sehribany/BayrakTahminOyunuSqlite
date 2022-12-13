@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98905B1429478D9C00FF46F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98905B1329478D9C00FF46F1 /* AppDelegate.swift */; };
+		98905B1629478D9C00FF46F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98905B1529478D9C00FF46F1 /* SceneDelegate.swift */; };
+		98905B1829478D9C00FF46F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98905B1729478D9C00FF46F1 /* ViewController.swift */; };
+		98905B1B29478D9C00FF46F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98905B1929478D9C00FF46F1 /* Main.storyboard */; };
+		98905B1D29478D9D00FF46F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98905B1C29478D9D00FF46F1 /* Assets.xcassets */; };
+		98905B2029478D9D00FF46F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98905B1E29478D9D00FF46F1 /* LaunchScreen.storyboard */; };
+		98905B2B29478D9D00FF46F1 /* bayrakapp_SQLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98905B2A29478D9D00FF46F1 /* bayrakapp_SQLiteTests.swift */; };
+		98905B3529478D9D00FF46F1 /* bayrakapp_SQLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98905B3429478D9D00FF46F1 /* bayrakapp_SQLiteUITests.swift */; };
+		98905B3729478D9D00FF46F1 /* bayrakapp_SQLiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98905B3629478D9D00FF46F1 /* bayrakapp_SQLiteUITestsLaunchTests.swift */; };
+		98905B5129478DE100FF46F1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 98905B4629478DE000FF46F1 /* FMResultSet.m */; };
+		98905B5229478DE100FF46F1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98905B4729478DE000FF46F1 /* FMDatabaseAdditions.m */; };
+		98905B5329478DE100FF46F1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 98905B4929478DE000FF46F1 /* FMDatabaseQueue.m */; };
+		98905B5429478DE100FF46F1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 98905B4D29478DE100FF46F1 /* FMDatabase.m */; };
+		98905B5529478DE100FF46F1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 98905B4F29478DE100FF46F1 /* FMDatabasePool.m */; };
+		98905B572947903E00FF46F1 /* QuizEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98905B562947903E00FF46F1 /* QuizEkraniVC.swift */; };
+		98905B592947904C00FF46F1 /* SonucEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98905B582947904C00FF46F1 /* SonucEkraniVC.swift */; };
+		98905B5B2947999C00FF46F1 /* bayrakquiz.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 98905B5A2947999C00FF46F1 /* bayrakquiz.sqlite */; };
+		98905B5F29479CFA00FF46F1 /* Bayraklar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98905B5E29479CFA00FF46F1 /* Bayraklar.swift */; };
+		98905B6129479D0900FF46F1 /* Bayraklardao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98905B6029479D0900FF46F1 /* Bayraklardao.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98905B2729478D9D00FF46F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98905B0829478D9C00FF46F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98905B0F29478D9C00FF46F1;
+			remoteInfo = bayrakapp_SQLite;
+		};
+		98905B3129478D9D00FF46F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98905B0829478D9C00FF46F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98905B0F29478D9C00FF46F1;
+			remoteInfo = bayrakapp_SQLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98905B1029478D9C00FF46F1 /* bayrakapp_SQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bayrakapp_SQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98905B1329478D9C00FF46F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98905B1529478D9C00FF46F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98905B1729478D9C00FF46F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98905B1A29478D9C00FF46F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98905B1C29478D9D00FF46F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98905B1F29478D9D00FF46F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98905B2129478D9D00FF46F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98905B2629478D9D00FF46F1 /* bayrakapp_SQLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bayrakapp_SQLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98905B2A29478D9D00FF46F1 /* bayrakapp_SQLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bayrakapp_SQLiteTests.swift; sourceTree = "<group>"; };
+		98905B3029478D9D00FF46F1 /* bayrakapp_SQLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bayrakapp_SQLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98905B3429478D9D00FF46F1 /* bayrakapp_SQLiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bayrakapp_SQLiteUITests.swift; sourceTree = "<group>"; };
+		98905B3629478D9D00FF46F1 /* bayrakapp_SQLiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bayrakapp_SQLiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98905B4429478DA800FF46F1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		98905B4529478DDF00FF46F1 /* bayrakapp_SQLite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bayrakapp_SQLite-Bridging-Header.h"; sourceTree = "<group>"; };
+		98905B4629478DE000FF46F1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		98905B4729478DE000FF46F1 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		98905B4829478DE000FF46F1 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		98905B4929478DE000FF46F1 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		98905B4A29478DE100FF46F1 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		98905B4B29478DE100FF46F1 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		98905B4C29478DE100FF46F1 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		98905B4D29478DE100FF46F1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		98905B4E29478DE100FF46F1 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		98905B4F29478DE100FF46F1 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		98905B5029478DE100FF46F1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		98905B562947903E00FF46F1 /* QuizEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEkraniVC.swift; sourceTree = "<group>"; };
+		98905B582947904C00FF46F1 /* SonucEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkraniVC.swift; sourceTree = "<group>"; };
+		98905B5A2947999C00FF46F1 /* bayrakquiz.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = bayrakquiz.sqlite; sourceTree = "<group>"; };
+		98905B5E29479CFA00FF46F1 /* Bayraklar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayraklar.swift; sourceTree = "<group>"; };
+		98905B6029479D0900FF46F1 /* Bayraklardao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bayraklardao.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98905B0D29478D9C00FF46F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98905B2329478D9D00FF46F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98905B2D29478D9D00FF46F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98905B0729478D9C00FF46F1 = {
+			isa = PBXGroup;
+			children = (
+				98905B1229478D9C00FF46F1 /* bayrakapp_SQLite */,
+				98905B2929478D9D00FF46F1 /* bayrakapp_SQLiteTests */,
+				98905B3329478D9D00FF46F1 /* bayrakapp_SQLiteUITests */,
+				98905B1129478D9C00FF46F1 /* Products */,
+				98905B4329478DA700FF46F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98905B1129478D9C00FF46F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98905B1029478D9C00FF46F1 /* bayrakapp_SQLite.app */,
+				98905B2629478D9D00FF46F1 /* bayrakapp_SQLiteTests.xctest */,
+				98905B3029478D9D00FF46F1 /* bayrakapp_SQLiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98905B1229478D9C00FF46F1 /* bayrakapp_SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				98905B5A2947999C00FF46F1 /* bayrakquiz.sqlite */,
+				98905B1329478D9C00FF46F1 /* AppDelegate.swift */,
+				98905B1529478D9C00FF46F1 /* SceneDelegate.swift */,
+				98905B1729478D9C00FF46F1 /* ViewController.swift */,
+				98905B1929478D9C00FF46F1 /* Main.storyboard */,
+				98905B1C29478D9D00FF46F1 /* Assets.xcassets */,
+				98905B1E29478D9D00FF46F1 /* LaunchScreen.storyboard */,
+				98905B2129478D9D00FF46F1 /* Info.plist */,
+				98905B4C29478DE100FF46F1 /* FMDatabase.h */,
+				98905B4D29478DE100FF46F1 /* FMDatabase.m */,
+				98905B4829478DE000FF46F1 /* FMDatabaseAdditions.h */,
+				98905B4729478DE000FF46F1 /* FMDatabaseAdditions.m */,
+				98905B4E29478DE100FF46F1 /* FMDatabasePool.h */,
+				98905B4F29478DE100FF46F1 /* FMDatabasePool.m */,
+				98905B4B29478DE100FF46F1 /* FMDatabaseQueue.h */,
+				98905B4929478DE000FF46F1 /* FMDatabaseQueue.m */,
+				98905B4A29478DE100FF46F1 /* FMDB.h */,
+				98905B5029478DE100FF46F1 /* FMResultSet.h */,
+				98905B4629478DE000FF46F1 /* FMResultSet.m */,
+				98905B4529478DDF00FF46F1 /* bayrakapp_SQLite-Bridging-Header.h */,
+				98905B562947903E00FF46F1 /* QuizEkraniVC.swift */,
+				98905B582947904C00FF46F1 /* SonucEkraniVC.swift */,
+				98905B5E29479CFA00FF46F1 /* Bayraklar.swift */,
+				98905B6029479D0900FF46F1 /* Bayraklardao.swift */,
+			);
+			path = bayrakapp_SQLite;
+			sourceTree = "<group>";
+		};
+		98905B2929478D9D00FF46F1 /* bayrakapp_SQLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				98905B2A29478D9D00FF46F1 /* bayrakapp_SQLiteTests.swift */,
+			);
+			path = bayrakapp_SQLiteTests;
+			sourceTree = "<group>";
+		};
+		98905B3329478D9D00FF46F1 /* bayrakapp_SQLiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98905B3429478D9D00FF46F1 /* bayrakapp_SQLiteUITests.swift */,
+				98905B3629478D9D00FF46F1 /* bayrakapp_SQLiteUITestsLaunchTests.swift */,
+			);
+			path = bayrakapp_SQLiteUITests;
+			sourceTree = "<group>";
+		};
+		98905B4329478DA700FF46F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98905B4429478DA800FF46F1 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98905B0F29478D9C00FF46F1 /* bayrakapp_SQLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98905B3A29478D9D00FF46F1 /* Build configuration list for PBXNativeTarget "bayrakapp_SQLite" */;
+			buildPhases = (
+				98905B0C29478D9C00FF46F1 /* Sources */,
+				98905B0D29478D9C00FF46F1 /* Frameworks */,
+				98905B0E29478D9C00FF46F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bayrakapp_SQLite;
+			productName = bayrakapp_SQLite;
+			productReference = 98905B1029478D9C00FF46F1 /* bayrakapp_SQLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98905B2529478D9D00FF46F1 /* bayrakapp_SQLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98905B3D29478D9D00FF46F1 /* Build configuration list for PBXNativeTarget "bayrakapp_SQLiteTests" */;
+			buildPhases = (
+				98905B2229478D9D00FF46F1 /* Sources */,
+				98905B2329478D9D00FF46F1 /* Frameworks */,
+				98905B2429478D9D00FF46F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98905B2829478D9D00FF46F1 /* PBXTargetDependency */,
+			);
+			name = bayrakapp_SQLiteTests;
+			productName = bayrakapp_SQLiteTests;
+			productReference = 98905B2629478D9D00FF46F1 /* bayrakapp_SQLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98905B2F29478D9D00FF46F1 /* bayrakapp_SQLiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98905B4029478D9D00FF46F1 /* Build configuration list for PBXNativeTarget "bayrakapp_SQLiteUITests" */;
+			buildPhases = (
+				98905B2C29478D9D00FF46F1 /* Sources */,
+				98905B2D29478D9D00FF46F1 /* Frameworks */,
+				98905B2E29478D9D00FF46F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98905B3229478D9D00FF46F1 /* PBXTargetDependency */,
+			);
+			name = bayrakapp_SQLiteUITests;
+			productName = bayrakapp_SQLiteUITests;
+			productReference = 98905B3029478D9D00FF46F1 /* bayrakapp_SQLiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98905B0829478D9C00FF46F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					98905B0F29478D9C00FF46F1 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+					98905B2529478D9D00FF46F1 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 98905B0F29478D9C00FF46F1;
+					};
+					98905B2F29478D9D00FF46F1 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 98905B0F29478D9C00FF46F1;
+					};
+				};
+			};
+			buildConfigurationList = 98905B0B29478D9C00FF46F1 /* Build configuration list for PBXProject "bayrakapp_SQLite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98905B0729478D9C00FF46F1;
+			productRefGroup = 98905B1129478D9C00FF46F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98905B0F29478D9C00FF46F1 /* bayrakapp_SQLite */,
+				98905B2529478D9D00FF46F1 /* bayrakapp_SQLiteTests */,
+				98905B2F29478D9D00FF46F1 /* bayrakapp_SQLiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98905B0E29478D9C00FF46F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98905B5B2947999C00FF46F1 /* bayrakquiz.sqlite in Resources */,
+				98905B2029478D9D00FF46F1 /* LaunchScreen.storyboard in Resources */,
+				98905B1D29478D9D00FF46F1 /* Assets.xcassets in Resources */,
+				98905B1B29478D9C00FF46F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98905B2429478D9D00FF46F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98905B2E29478D9D00FF46F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98905B0C29478D9C00FF46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98905B1829478D9C00FF46F1 /* ViewController.swift in Sources */,
+				98905B1429478D9C00FF46F1 /* AppDelegate.swift in Sources */,
+				98905B5129478DE100FF46F1 /* FMResultSet.m in Sources */,
+				98905B5429478DE100FF46F1 /* FMDatabase.m in Sources */,
+				98905B1629478D9C00FF46F1 /* SceneDelegate.swift in Sources */,
+				98905B592947904C00FF46F1 /* SonucEkraniVC.swift in Sources */,
+				98905B6129479D0900FF46F1 /* Bayraklardao.swift in Sources */,
+				98905B5529478DE100FF46F1 /* FMDatabasePool.m in Sources */,
+				98905B572947903E00FF46F1 /* QuizEkraniVC.swift in Sources */,
+				98905B5229478DE100FF46F1 /* FMDatabaseAdditions.m in Sources */,
+				98905B5329478DE100FF46F1 /* FMDatabaseQueue.m in Sources */,
+				98905B5F29479CFA00FF46F1 /* Bayraklar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98905B2229478D9D00FF46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98905B2B29478D9D00FF46F1 /* bayrakapp_SQLiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98905B2C29478D9D00FF46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98905B3729478D9D00FF46F1 /* bayrakapp_SQLiteUITestsLaunchTests.swift in Sources */,
+				98905B3529478D9D00FF46F1 /* bayrakapp_SQLiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98905B2829478D9D00FF46F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98905B0F29478D9C00FF46F1 /* bayrakapp_SQLite */;
+			targetProxy = 98905B2729478D9D00FF46F1 /* PBXContainerItemProxy */;
+		};
+		98905B3229478D9D00FF46F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98905B0F29478D9C00FF46F1 /* bayrakapp_SQLite */;
+			targetProxy = 98905B3129478D9D00FF46F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98905B1929478D9C00FF46F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98905B1A29478D9C00FF46F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98905B1E29478D9D00FF46F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98905B1F29478D9D00FF46F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98905B3829478D9D00FF46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98905B3929478D9D00FF46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98905B3B29478D9D00FF46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bayrakapp_SQLite/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.bayrakapp-SQLite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "bayrakapp_SQLite/bayrakapp_SQLite-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98905B3C29478D9D00FF46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bayrakapp_SQLite/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.bayrakapp-SQLite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "bayrakapp_SQLite/bayrakapp_SQLite-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98905B3E29478D9D00FF46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.bayrakapp-SQLiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bayrakapp_SQLite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bayrakapp_SQLite";
+			};
+			name = Debug;
+		};
+		98905B3F29478D9D00FF46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.bayrakapp-SQLiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bayrakapp_SQLite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bayrakapp_SQLite";
+			};
+			name = Release;
+		};
+		98905B4129478D9D00FF46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.bayrakapp-SQLiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bayrakapp_SQLite;
+			};
+			name = Debug;
+		};
+		98905B4229478D9D00FF46F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.bayrakapp-SQLiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bayrakapp_SQLite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98905B0B29478D9C00FF46F1 /* Build configuration list for PBXProject "bayrakapp_SQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98905B3829478D9D00FF46F1 /* Debug */,
+				98905B3929478D9D00FF46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98905B3A29478D9D00FF46F1 /* Build configuration list for PBXNativeTarget "bayrakapp_SQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98905B3B29478D9D00FF46F1 /* Debug */,
+				98905B3C29478D9D00FF46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98905B3D29478D9D00FF46F1 /* Build configuration list for PBXNativeTarget "bayrakapp_SQLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98905B3E29478D9D00FF46F1 /* Debug */,
+				98905B3F29478D9D00FF46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98905B4029478D9D00FF46F1 /* Build configuration list for PBXNativeTarget "bayrakapp_SQLiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98905B4129478D9D00FF46F1 /* Debug */,
+				98905B4229478D9D00FF46F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98905B0829478D9C00FF46F1 /* Project object */;
+}
